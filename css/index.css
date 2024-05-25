@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	background: url(../img/fondo.jpg);
+	background-size: cover;
+}
+
+.container {
+	background-color: #c2c5c5;
+	min-height: 100vh;
+	width: 1000px;
+	margin: 0 auto;
+	box-shadow: 10px 10px 20px;
+}
+
+.header {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+
+
+ul {
+	display: flex;
+	list-style: none;
+}
+
+ul li a {
+	text-decoration: none;
+	color: white;
+	padding: 0 15px;
+}
+
+.dashboard {
+	display: flex;
+}
+
+.abm {
+	margin: 0 auto;
+	margin-bottom: 200px;
+}
+
+.consultarAbm {
+	text-align: center;
+	width: 600px;
+	box-shadow: 5px 5px 30px;
+	margin-bottom: 60px;
+}
+
+.tabla_consulta {
+	padding-bottom: 20px;
+}
+
+.consultarAbm p {
+	background-color: #3e5064; 
+	color: #e0e1dd;
+	padding: 5px;
+	border: 4px outset black;
+	text-align: center;
+}
+
+.consultarAbm form {
+	padding: 10px;
+}
+
+.consultarAbm form input {
+	padding: 5px 10px;
+}
+
+.agregarAbm {
+	margin-top: 40px;
+	width: 400px;
+	box-shadow: 5px 5px 30px;
+	margin-bottom: 60px;
+}
+
+.agregarAbm p {
+	background-color: #3e5064; 
+	color: #e0e1dd;
+	padding: 5px;
+	border: 4px outset black;
+	text-align: center;
+}
+
+.agregarAbm form {
+	padding: 10px;
+}
+
+.agregarAbm form input {
+	padding: 3px;
+	margin: 5px;
+	width: 100px;
+}
+
+.agregarAbm form label {
+	background-color: #3e5064; 
+	color: #e0e1dd;
+	padding: 5px;
+	box-shadow: 5px 5px 30px;
+	border: 1px double black;
+}
+
+.agregarAbm form button {
+	margin-top: 20px;
+}
+
+.form-body {
+	background-color: #415a77;
+	width: 400px;
+	height: 515px;
+	min-width: 300px;
+	border-radius: 10px;
+	border-top-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+	box-shadow: 10px 10px 20px;
+	margin-top: 200px;
+}
+
+.form-body p {
+	text-align: center;
+	color: white;
+}
+
+.form-body img {
+	width: 350px;
+	display: block;
+	margin: 20px auto;
+}
+
+.texto {
+	text-align: center;
+	font-size: 1.2rem;
+	font-weight: 600;
+	color: #e0e1dd;
+	margin-bottom: 25px;
+}
+
+.campos {
+	display: block;
+	margin: auto;
+	height: 48px;
+	width: 75%;
+	padding-left: 10px;
+	color: #415a77;
+	border: 1px solid #e0e1dd;
+	border-radius: 2px;
+	border-top-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	font-size: 1rem;
+	outline: none;
+}
+
+::placeholder {
+	font-size: 1rem;
+	color: #9ab0c7;
+}
+
+.form-body input:hover {
+	transition: .3s;
+	border: 1px solid #2c3e50;
+}
+
+.form-body input[type="submit"] {
+	display: block;
+	margin: auto;
+	margin-top: 25px;
+	margin-bottom: 30px;
+	height: 40px;
+	width: 78%;
+	background: transparent;
+	color: #e0e1dd;
+	border-radius: 2px;
+	cursor: pointer;
+	outline: none;
+	border: 1px solid #e0e1dd;
+	transition: all .5s ease;
+}
+
+.form-body input[type="submit"]:hover {
+	color: #e0e1dd;
+	transition: .3s;
+	border: 1px solid #2c3e50;
+}
+
+.menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 60px;
+	padding: 30px;
+	color: #e0e1dd;
+	background-color: #415a77 ;
+}
+
+.logo {
+    font-weight: bold;
+}
+
+.logo span {
+    font-weight: 400;
+}
+
+.content {
+	margin-top: 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 50vh;
+}
+
+.content img {
+	width:350px;
+}
+
+select {
+	padding: 5px;
+	border-radius: 5px;
+}
+
+button {
+	padding: 10px 20px;
+	background-color: #3e5064;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+  
+button:hover {
+	background-color: #435c79;
+}
+  
+button:active {
+	background-color: #3e5064;
+}
+
+.login {
+	border: 1px solid white;
+	border-radius: 30px;
+	padding: 11px 12px;
+}
+
+.info {
+	padding-top: 200px;
+	padding-bottom: 60px;
+    text-align: center;
+}
+
+.info img {
+	width: 500px;
+}
+
+.info h1 {
+	border: 1px solid black;
+	width: 500px;
+	margin: 0 auto;
+	border-radius: 10px;
+}
+
+.imgDS {
+	position: relative;
+    overflow: hidden;
+	text-align: center;
+	margin-top: 30px;
+	width: 750px;
+	height: 630px;
+}
+
+.imgAF {
+	position: relative;
+    overflow: hidden;
+	text-align: center;
+	width: 750px;
+	height: 520px;
+}
+
+.imgITI {
+	position: relative;
+    overflow: hidden;
+	text-align: center;
+	width: 750px;
+	height: 600px;
+}
+
+.imagen {
+	width: 500px;
+	padding: 10px;
+	transition: transform 0.3s ease-in-out;
+}
+
+.imagen-ampliada {
+	transform: scale(1.5);
+}
+
+.content2 {
+	margin-top: 180px;
+}
